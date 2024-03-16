@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin-bottom: 100px;
+}
+
+.container {
+    max-width: 1400px;
+    margin: auto;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+    padding:10px;
+
+}
+
+header img {
+    width: 100%;
+    max-width: 500px;
+}
+
+main {
+    width: 100%;
+}
+
+#form {
+    width: 100%;
+    max-width: 800px;
+    padding: 10px;
+    margin:auto;
+}
+
+#form form input[type=text] {
+    width: 100%;
+    margin-bottom: 5px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+#show-distance {
+    margin-top: 10px;
+}
+#address {
+    display: none;
+    margin-top: 5px;
+}
+#show-distance:checked + #address {
+    display: block;
+}
+
+#form form input[type=submit] {
+    width: 100%;
+    background: rgb(69, 134, 255);
+    border: 0;
+    padding: 10px;
+    color: white;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+
+#result {
+    width: 100%;
+    max-width: 800px;
+    display:none;
+    margin:auto;
+}
+
+.direction-hint {
+    margin-bottom: 40px;
+    text-align:center;
+
+}
+
+.direction-hint .direction {
+    width: 100%;
+    margin-bottom: 5px;
+    color: rgb(69, 134, 255);
+    text-decoration: underline;
+    font-family: sans-serif;
+}
+
+.direction-hint .direction-sign {
+}
+
+.direction-hint .distance-to {
+    font-size: 0.9em;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    font-style: italic;
+    background: white;
+    font-size: 12px;
+}

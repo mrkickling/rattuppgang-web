@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta 
+        name="description" 
+        content="Ska jag sitta fram eller bak? Eller i mitten?
+                 En ständig fråga som vi Stockholmare trodde att vi aldrig skulle få hjälp med.
+                 Fram tills nu! Rätt Uppgång används för att se vilken tunnelbaneuppgång man ska ta och var i tågets färdriktning den uppgången ligger. 
+                 En app du inte visste att du behövde, men som från och med nu kommer vara en vital del av ditt tunnelbaneåkande."
+    >
+    <title>Rätt uppgång</title>
+    <link rel="stylesheet" href="assets/autocomplete.css">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="img/logo.png" alt="">
+            <p>Rätt uppgång räknar ut i vilken färdriktning din uppgång ligger, så att du kan spara tid och tankekraft.</p>
+        </header>
+        <main>
+            <div id="form">
+                <form id="search-form" action="" autocomplete="off">
+                    <div>
+                        <label for="from">Från: </label>
+                        <br>
+                        <input type="text" id="from" required>
+                    </div>
+                    <div>
+                        <label for="to">Till: </label>
+                        <br>
+                        <input type="text" id="to" required>
+                    </div>
+                    <!-- <input type="checkbox" id="show-distance"> 
+                    Visa avstånd till address
+                    <input type="text" name="address" id="address" value="Address">  -->
+                    <br>
+                    <input id="search" type="submit" value="Sök efter uppgångar">
+                </form>
+            </div>
+            <div id="result">
+                <div class="direction-hint">
+                    <h4 class="direction">Stå fram i tåget:</h4>
+                    <div id="front-exits">
+                    </div>
+                </div>
+                <div class="direction-hint">
+                    <h4 class="direction">Stå i mitten av tåget:</h4>
+                    <div id="middle-exits">
+                    </div>
+                </div>
+                <div class="direction-hint">
+                    <h4 class="direction">Stå bak i tåget:</h4>
+                    <div id="back-exits">
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            Sidan är gjord av <a href="https://joakimloxdal.se">Joakim Loxdal</a>. <a href="tacktill.html">Tack till</a>
+            <br><a href="mailto:loxdalen@gmail.com">Maila mig</a> om någon info inte stämmer.
+        </footer>
+    </div>
+    <script src="assets/data.js"></script>
+    <script src="assets/autocomplete.js"></script>
+    <script src="assets/rattuppgang.js"></script>
+</body>
+</html>
