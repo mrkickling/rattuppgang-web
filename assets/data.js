@@ -769,11 +769,16 @@ tunnelbanekarta = {
         "up": [
           {
             "placement": "up",
-            "name": "Hässelby torg"
+            "name": "Hässelby torg - hiss"
           }
         ],
         "down": [],
-        "middle": []
+        "middle": [
+          {
+            "placement": "middle",
+            "name": "Hässelby torg - trappor"
+          }
+        ]
       },
       "name": "Hässelby gård",
       "lines": [
