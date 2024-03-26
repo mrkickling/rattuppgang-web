@@ -15,6 +15,7 @@ tunnelbanekarta = {
       "name": "Abrahamsberg",
       "lines": [
         17,
+        18,
         19
       ]
     },
@@ -222,7 +223,7 @@ tunnelbanekarta = {
       },
       "name": "Blackeberg",
       "lines": [
-        19
+        17, 18, 19
       ]
     },
     "Blåsut": {
@@ -274,6 +275,7 @@ tunnelbanekarta = {
       "name": "Brommaplan",
       "lines": [
         17,
+        18,
         19
       ]
     },
@@ -782,7 +784,7 @@ tunnelbanekarta = {
       },
       "name": "Hässelby gård",
       "lines": [
-        19
+        17, 18, 19
       ]
     },
     "Hässelby strand": {
@@ -799,7 +801,7 @@ tunnelbanekarta = {
       },
       "name": "Hässelby strand",
       "lines": [
-        19
+        17, 18, 19
       ]
     },
     "Högdalen": {
@@ -902,7 +904,7 @@ tunnelbanekarta = {
       },
       "name": "Islandstorget",
       "lines": [
-        19
+        17, 18, 19
       ]
     },
     "Johannelund": {
@@ -919,7 +921,7 @@ tunnelbanekarta = {
       },
       "name": "Johannelund",
       "lines": [
-        19
+        17, 18, 19
       ]
     },
     "Karlaplan": {
@@ -1331,7 +1333,7 @@ tunnelbanekarta = {
       },
       "name": "Råcksta",
       "lines": [
-        19
+        17, 18, 19
       ]
     },
     "Rådhuset": {
@@ -1701,6 +1703,7 @@ tunnelbanekarta = {
       "name": "Stora mossen",
       "lines": [
         17,
+        18,
         19
       ]
     },
@@ -2088,7 +2091,7 @@ tunnelbanekarta = {
       },
       "name": "Vällingby",
       "lines": [
-        19
+        17, 18, 19
       ]
     },
     "Västertorp": {
@@ -2172,6 +2175,7 @@ tunnelbanekarta = {
       "name": "Åkeshov",
       "lines": [
         17,
+        18,
         19
       ]
     },
@@ -2189,7 +2193,7 @@ tunnelbanekarta = {
       },
       "name": "Ängbyplan",
       "lines": [
-        19
+        17, 18, 19
       ]
     },
     "Örnsberg": {
