@@ -8,6 +8,11 @@ function get_exits(from, to) {
     from_station = tunnelbanekarta[from];
     to_station = tunnelbanekarta[to];
 
+    if (!from_station || !to_station) {
+        alert("Se till att du stavade stationerna rätt eller välj önskad station " +
+              "från rullistan så behöver du ej oroa dig för stavningen.")
+    }
+
     common_lines = from_station.lines.filter(function(n) {
         return to_station.lines.indexOf(n) !== -1;
     });
