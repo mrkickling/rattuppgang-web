@@ -1603,16 +1603,22 @@ tunnelbanekarta = {
       "exits": {
         "up": [
           {
-            "pos": "59.358472,17.998803",
-            "name": "Centralvägen(busstorget)",
-            "placement": "up"
-          }
-        ],
-        "down": [
-          {
             "pos": "59.361305,17.996485",
             "name": "Frösundaleden (Råsunda)",
             "placement": "down"
+          },
+          {
+            "pos": "59.361305,17.996485",
+            "name": "Tvärbanan",
+            "placement": "down"
+          }
+
+        ],
+        "down": [
+          {
+            "pos": "59.358472,17.998803",
+            "name": "Centralvägen (busstorget)",
+            "placement": "up"
           }
         ],
         "middle": []
