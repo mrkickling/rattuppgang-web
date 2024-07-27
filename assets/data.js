@@ -500,7 +500,7 @@ tunnelbanekarta = {
         "down": [
           {
             "pos": "59.29369,18.074827",
-            "name": "Slakhusområdet",
+            "name": "Slakthusområdet",
             "placement": "down"
           },
           {
