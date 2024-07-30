@@ -97,12 +97,10 @@ function search(event) {
     from = event.target.elements.from.value.trim();
     to = event.target.elements.to.value.trim();
     show_distance = false; // event.target.elements['show-distance'].checked;
-    distance_to = 
-    console.log(show_distance);
+
     exits = get_exits(from, to);
     if (exits) {
         render_results(exits, show_distance);
-    
     }
 }
 
