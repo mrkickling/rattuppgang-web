@@ -18,19 +18,30 @@
     <div class="container">
         <header>
             <img src="img/logo.png" alt="">
-            <p>Rätt uppgång räknar ut var du ska stå i tunnelbanan, så att du kan spara tid och tankekraft.</p>
+            <p class="main-text">Rätt uppgång räknar ut var du ska stå i tunnelbanan, så att du kan spara tid och tankekraft.</p>
         </header>
         <main>
             <div id="form">
                 <form id="search-form" action="" autocomplete="off">
-                    <div>
+                    <div class="form-row">
                         <label for="from">Från: </label>
-                        <br>
+                        <button id="clear-from">
+                            ✕
+                        </button>
                         <input type="text" id="from" required>
                     </div>
-                    <div>
+
+                    <div class="switch-from-to">
+                        <button id="switch-from-to">
+                            ⇅
+                        </button>
+                    </div>
+
+                    <div class="form-row">
                         <label for="to">Till: </label>
-                        <br>
+                        <button id="clear-to">
+                            ✕
+                        </button>
                         <input type="text" id="to" required>
                     </div>
                     <!-- <input type="checkbox" id="show-distance"> 

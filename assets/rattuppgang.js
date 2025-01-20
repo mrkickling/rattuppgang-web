@@ -92,11 +92,31 @@ function render_results(exits, show_distance) {
     window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' })
 }
 
+function setLatestSearch() {
+    try {
+        let lastSearch = localStorage.getItem('lastSearch');
+        lastSearch = JSON.parse(lastSearch);
+
+        from_input = document.getElementById('search-form').elements.from;
+        to_input = document.getElementById('search-form').elements.to;
+
+        from_input.value = lastSearch.from;
+        to_input.value = lastSearch.to;
+
+    } catch (error) {
+        return
+    }
+      
+}
+
 function search(event) {
     event.preventDefault();
     from = event.target.elements.from.value.trim();
     to = event.target.elements.to.value.trim();
     show_distance = false; // event.target.elements['show-distance'].checked;
+
+    let lastSearch = {'from': from, 'to': to}
+    localStorage.setItem('lastSearch', JSON.stringify(lastSearch));
 
     exits = get_exits(from, to);
     if (exits) {
@@ -104,6 +124,35 @@ function search(event) {
     }
 }
 
+function switchFromTo(event) {
+    event.preventDefault();
+    from_input = document.getElementById('search-form').elements.from
+    to_input = document.getElementById('search-form').elements.to
+
+    from = from_input.value.trim();
+    to = to_input.value.trim();
+
+    to_input.value = from;
+    from_input.value = to;
+}
+
+function clearFrom(event) {
+    event.preventDefault();
+    document.getElementById('search-form').elements.from.value = "";
+}
+
+function clearTo(event) {
+    event.preventDefault();
+    to_input = document.getElementById('search-form').elements.to.value = "";
+}
+
+
 document.getElementById('search-form').addEventListener('submit', search);
+document.getElementById('switch-from-to').addEventListener('click', switchFromTo)
+document.getElementById('clear-from').addEventListener('click', clearFrom)
+document.getElementById('clear-to').addEventListener('click', clearTo)
+
+document.addEventListener('DOMContentLoaded', setLatestSearch)
+
 autocomplete(document.getElementById("from"), Object.keys(tunnelbanekarta));
 autocomplete(document.getElementById("to"), Object.keys(tunnelbanekarta));
