@@ -26,6 +26,7 @@ header img {
 }
 
 main {
+    padding: 10px;
     width: 100%;
 }
 
@@ -36,7 +37,6 @@ main {
 #form {
     width: 100%;
     max-width: 800px;
-    padding: 10px;
     margin:auto;
 }
 
@@ -105,6 +105,33 @@ main {
     font-size: 15px;
 }
 
+#latest-searches {
+    margin-top: 20px;
+}
+
+.search-item {
+    overflow: auto;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+
+.search-item:hover, .search-item:active {
+    background: lightgrey;
+}
+
+.search-item-from, .to-arrow, .search-item-to {
+    float: left;
+    text-align: center;
+}
+
+.search-item-from, .search-item-to {
+    width: 40%;
+}
+
+.to-arrow {
+    width: 10%;
+}
 
 #result {
     width: 100%;
