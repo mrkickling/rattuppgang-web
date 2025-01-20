@@ -1145,6 +1145,8 @@ tunnelbanekarta = {
           {
             "placement": "middle",
             "name": "Tegelbruksvägen, Svandammsvägen",
+            "elevator": true,
+            "elevator_info": "Liten hiss till biljetthall, brant ramp till Tegelbruksvägen"
           }
         ]
       },
@@ -1323,7 +1325,8 @@ tunnelbanekarta = {
             "pos": "59.355492,18.09975",
             "name": "Ropsten bussterminal",
             "placement": "middle",
-            "elevator": true
+            "elevator": true,
+            "elevator_info": "Mindre hiss."
           }
         ]
       },

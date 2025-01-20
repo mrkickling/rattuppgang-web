@@ -129,6 +129,9 @@ main {
 
 #front-elevator, #middle-elevator, #back-elevator {
     font-size: 0.8em;
+}
+
+.hidden-element {
     display: none;
 }
 
