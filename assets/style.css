@@ -127,7 +127,9 @@ main {
     font-family: sans-serif;
 }
 
-.direction-hint .direction-sign {
+#front-elevator, #middle-elevator, #back-elevator {
+    font-size: 0.8em;
+    display: none;
 }
 
 .direction-hint .distance-to {
