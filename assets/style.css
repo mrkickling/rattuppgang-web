@@ -129,6 +129,8 @@ main {
 
 #front-elevator, #middle-elevator, #back-elevator {
     font-size: 0.8em;
+    color: grey;
+    font-weight: bold;
 }
 
 .hidden-element {
