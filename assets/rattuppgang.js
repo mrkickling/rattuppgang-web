@@ -57,12 +57,25 @@ function render_results(exits, show_distance) {
     middle_exits_node = document.getElementById('middle-exits');
     back_exits_node = document.getElementById('back-exits');
 
+    front_elevator = document.getElementById('front-elevator');
+    middle_elevator = document.getElementById('middle-elevator');
+    back_elevator = document.getElementById('back-elevator');
+
+    // Hide all elevators
+    front_elevator.classList = ["hidden-element"];
+    middle_elevator.classList = ["hidden-element"];
+    back_elevator.classList = ["hidden-element"];
+
     front_exits_node.innerHTML = "<p>Ingen uppgång fram</p>";
     middle_exits_node.innerHTML = "<p>Ingen uppgång i mitten</p>";
     back_exits_node.innerHTML = "<p>Ingen uppgång bak</p>";
     
     if (exits.front.length) {
+        if (exits.front[0].elevator) {
+            front_elevator.classList = [];
+        }
         front_exits_node.innerHTML = "";
+
         for (const exit of exits.front) {
             front_exits_node.appendChild(
                 exit_element(exit)
@@ -71,7 +84,11 @@ function render_results(exits, show_distance) {
     }
 
     if (exits.middle.length) {
+        if (exits.middle[0].elevator) {
+            middle_elevator.classList = [];
+        }
         middle_exits_node.innerHTML = "";
+
         for (const exit of exits.middle) {
             middle_exits_node.appendChild(
                 exit_element(exit)
@@ -80,6 +97,9 @@ function render_results(exits, show_distance) {
     }
 
     if (exits.back.length) {
+        if (exits.back[0].elevator) {
+            back_elevator.classList = [];
+        }
         back_exits_node.innerHTML = "";
         for (const exit of exits.back) {
             back_exits_node.appendChild(
