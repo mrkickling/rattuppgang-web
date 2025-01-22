@@ -135,8 +135,12 @@ function search(event) {
     to = event.target.elements.to.value.trim();
     show_distance = false; // event.target.elements['show-distance'].checked;
 
-    let lastSearch = {'from': from, 'to': to}
-    localStorage.setItem('lastSearch', JSON.stringify(lastSearch));
+    try {
+        let lastSearch = {'from': from, 'to': to}
+        localStorage.setItem('lastSearch', JSON.stringify(lastSearch));    
+    } catch (error) {
+        console.log("Cookies disabled");
+    }
 
     exits = get_exits(from, to);
     if (exits) {
