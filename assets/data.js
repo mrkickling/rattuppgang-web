@@ -1426,17 +1426,18 @@ tunnelbanekarta = {
       "exits": {
         "up": [
           {
-            "pos": "59.341446,18.037684",
-            "name": "S:t Eriksplan/torsgatan",
+            "pos": "59.339755,18.03674",
+            "name": "S:t Eriksplan/S:t Eriksgatan",
             "elevator": true,
           }
         ],
         "down": [
           {
-            "pos": "59.339755,18.03674",
-            "name": "S:t Eriksplan/Eriksgatan",
+            "pos": "59.341446,18.037684",
+            "name": "S:t Eriksgatan/Torsgatan",
             "elevator": true,
           }
+
         ],
         "middle": []
       },
