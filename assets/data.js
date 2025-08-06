@@ -1358,14 +1358,14 @@ tunnelbanekarta = {
         "up": [
           {
             "pos": "59.33013,18.041857",
-            "name": "Hantverkargatan/Rådhuset/Bergsgatan",
+            "name": "Rådhuset/Polishuset",
             "elevator": true
           }
         ],
         "down": [
           {
             "pos": "59.331318,18.046203",
-            "name": "Kungsholmsgatan",
+            "name": "Hantverkargatan/Kungsholmsgatan",
             "elevator": true
           },
         ],
