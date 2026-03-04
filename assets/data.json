@@ -1,4 +1,4 @@
-tunnelbanekarta = {
+{
     "Abrahamsberg": {
       "level": 10,
       "exits": {
@@ -688,7 +688,7 @@ tunnelbanekarta = {
         "up": [
           {
             "pos": "59.316594,18.038628",
-            "name": "Högalidsparken",
+            "name": "Högalidsparken"
           }
         ],
         "down": [
@@ -878,7 +878,7 @@ tunnelbanekarta = {
           },
           {
             "pos": "59.334415,18.063744",
-            "name": "Sergelgatan",
+            "name": "Sergelgatan"
           }
         ],
         "middle": [
@@ -1117,7 +1117,7 @@ tunnelbanekarta = {
         "down": [
           {
             "pos": "59.314234,18.073325",
-            "name": "Folkungagatan",
+            "name": "Folkungagatan"
           }
         ],
         "middle": [
@@ -1317,7 +1317,7 @@ tunnelbanekarta = {
         "down": [
           {
             "pos": "59.354798,18.098012",
-            "name": "Hjorthagen",
+            "name": "Hjorthagen"
           }
         ],
         "middle": [
@@ -1367,7 +1367,7 @@ tunnelbanekarta = {
             "pos": "59.331318,18.046203",
             "name": "Hantverkargatan/Kungsholmsgatan",
             "elevator": true
-          },
+          }
         ],
         "middle": []
       },
@@ -1412,7 +1412,7 @@ tunnelbanekarta = {
           {
             "placement": "middle",
             "name": "Rågsvedsvägen, Rågsveds centrum",
-            "elevator": true,
+            "elevator": true
           }
         ]
       },
@@ -1428,14 +1428,14 @@ tunnelbanekarta = {
           {
             "pos": "59.339755,18.03674",
             "name": "S:t Eriksplan/S:t Eriksgatan",
-            "elevator": true,
+            "elevator": true
           }
         ],
         "down": [
           {
             "pos": "59.341446,18.037684",
             "name": "S:t Eriksgatan/Torsgatan",
-            "elevator": true,
+            "elevator": true
           }
 
         ],
@@ -1470,14 +1470,14 @@ tunnelbanekarta = {
         "up": [
           {
             "pos": "59.309914,18.075492",
-            "name": "Götgatan/Allhelgonagatan",
+            "name": "Götgatan/Allhelgonagatan"
           }
         ],
         "down": [
           {
             "pos": "59.307767,18.076479",
             "name": "Götgatan/Ringvägen",
-            "elevator": true,
+            "elevator": true
           }
         ],
         "middle": []
@@ -1495,7 +1495,7 @@ tunnelbanekarta = {
         "up": [
           {
             "name": "Skarpnäck Allé",
-            "elevator": true,
+            "elevator": true
           }
         ],
         "down": [],
@@ -1512,7 +1512,7 @@ tunnelbanekarta = {
         "up": [
           {
             "name": "Sockenvägen",
-            "elevator": true,
+            "elevator": true
           }
         ],
         "down": [],
@@ -1529,7 +1529,7 @@ tunnelbanekarta = {
         "up": [
           {
             "name": "Bussar mot bl.a. Kungens kurva",
-            "elevator": true,
+            "elevator": true
           }
         ],
         "down": [],
@@ -1537,7 +1537,7 @@ tunnelbanekarta = {
           {
             "placement": "middle",
             "name": "SKHLM",
-            "elevator": true,
+            "elevator": true
           }
         ]
       },
@@ -1553,7 +1553,7 @@ tunnelbanekarta = {
         "down": [
           {
             "name": "Pelargatan /Palandergatan",
-            "elevator": true,
+            "elevator": true
           }
         ],
         "middle": []
@@ -1571,13 +1571,13 @@ tunnelbanekarta = {
           {
             "pos": "59.320147,18.072166",
             "name": "Södermalmstorg/Bussar",
-            "elevator": true,
+            "elevator": true
           }
         ],
         "down": [
           {
             "pos": "59.318116,18.071362",
-            "name": "Götgatsbacken",
+            "name": "Götgatsbacken"
           }
         ],
         "middle": [
@@ -1585,7 +1585,7 @@ tunnelbanekarta = {
             "pos": "59.319681,18.072199",
             "name": "Södermalmstorg/Bussar",
             "placement": "middle",
-            "elevator": true,
+            "elevator": true
           }
         ]
       },
@@ -1604,7 +1604,7 @@ tunnelbanekarta = {
         "up": [
           {
             "name": "Sockenplan",
-            "elevator": true,
+            "elevator": true
           }
         ],
         "down": [],
@@ -1622,12 +1622,12 @@ tunnelbanekarta = {
           {
             "pos": "59.361305,17.996485",
             "name": "Frösundaleden (Råsunda)",
-            "elevator": true,
+            "elevator": true
           },
           {
             "pos": "59.361305,17.996485",
             "name": "Tvärbanan",
-            "elevator": true,
+            "elevator": true
           }
 
         ],
@@ -1635,7 +1635,7 @@ tunnelbanekarta = {
           {
             "pos": "59.358472,17.998803",
             "name": "Centralvägen (busstorget)",
-            "elevator": true,
+            "elevator": true
           }
         ],
         "middle": []
@@ -1651,7 +1651,7 @@ tunnelbanekarta = {
         "up": [
           {
             "name": "Solna strand",
-            "elevator": true,
+            "elevator": true
           }
         ],
         "down": [],
@@ -1669,14 +1669,14 @@ tunnelbanekarta = {
           {
             "pos": "59.343454,18.080857",
             "name": "Valhallavägen/Grev Turegatan (buss: musikhögskolan",
-            "elevator": true,
+            "elevator": true
           }
         ],
         "down": [
           {
             "pos": "59.339673,18.081168",
             "name": "Karlavägen/Nybrogatan",
-            "elevator": true,
+            "elevator": true
           }
         ],
         "middle": []
@@ -1693,14 +1693,14 @@ tunnelbanekarta = {
           {
             "pos": "59.336735,18.017793",
             "name": "Sankt Göransgatan",
-            "elevator": true,
+            "elevator": true
           }
         ],
         "down": [
           {
             "pos": "59.336905,18.016527",
             "name": "Kellgrensgatan, Sankt Göransgatan",
-            "elevator": true,
+            "elevator": true
           }
         ],
         "middle": []
@@ -1718,7 +1718,7 @@ tunnelbanekarta = {
         "down": [
           {
             "name": "Stora Mossens Backe, Drottningholmsvägen",
-            "elevator": true,
+            "elevator": true
           }
         ],
         "middle": []
@@ -1737,7 +1737,7 @@ tunnelbanekarta = {
         "down": [
           {
             "name": "Mölnbackavägen, Sågverksgatan",
-            "elevator": true,
+            "elevator": true
           }
         ],
         "middle": []
@@ -1754,14 +1754,14 @@ tunnelbanekarta = {
           {
             "pos": "59.363098,17.970285",
             "name": "Prästgårdsgatan, Stationsgatan",
-            "elevator": true,
+            "elevator": true
           }
         ],
         "down": [
           {
             "pos": "59.360796,17.97138",
             "name": "Sundbybergs torg, pendeltåget, tvärbanan",
-            "elevator": true,
+            "elevator": true
           }
         ],
         "middle": []
@@ -1780,7 +1780,7 @@ tunnelbanekarta = {
           {
             "placement": "middle",
             "name": "Svedmyra",
-            "elevator": true,
+            "elevator": true
           }
         ]
       },
@@ -1796,7 +1796,7 @@ tunnelbanekarta = {
         "down": [
           {
             "name": "Sätra centrum",
-            "elevator": true,
+            "elevator": true
           }
         ],
         "middle": []
@@ -1813,7 +1813,7 @@ tunnelbanekarta = {
         "down": [
           {
             "name": "Viktor Balcks väg",
-            "elevator": true,
+            "elevator": true
           }
         ],
         "middle": []
@@ -1830,21 +1830,21 @@ tunnelbanekarta = {
           {
             "pos": "59.330344,18.059056",
             "name": "Vasagatan",
-            "elevator": true,
+            "elevator": true
           }
         ],
         "down": [
           {
             "pos": "59.332139,18.063154",
             "name": "Sergelstorg",
-            "elevator": true,
+            "elevator": true
           }
         ],
         "middle": [
           {
             "placement": "middle",
             "name": "Till grön/röd linje",
-            "elevator": true,
+            "elevator": true
           }
         ]
       },
@@ -1861,21 +1861,21 @@ tunnelbanekarta = {
           {
             "pos": "59.332139,18.063154",
             "name": "Sergels torg/drottninggatan",
-            "elevator": true,
+            "elevator": true
           }
         ],
         "down": [
           {
             "pos": "59.330344,18.059056",
             "name": "Centralstationen",
-            "elevator": true,
+            "elevator": true
           }
         ],
         "middle": [
           {
             "placement": "middle",
             "name": "Till blå linje, Pendeltåg",
-            "elevator": true,
+            "elevator": true
           }
         ]
       },
@@ -1895,21 +1895,21 @@ tunnelbanekarta = {
           {
             "pos": "59.330344,18.059056",
             "name": "Vasagatan",
-            "elevator": true,
+            "elevator": true
           }
         ],
         "down": [
           {
             "pos": "59.332139,18.063154",
             "name": "Sergelstorg",
-            "elevator": true,
+            "elevator": true
           }
         ],
         "middle": [
           {
             "placement": "middle",
             "name": "Till grön/röd linje",
-            "elevator": true,
+            "elevator": true
           }
         ]
       },
@@ -1926,21 +1926,21 @@ tunnelbanekarta = {
           {
             "pos": "59.332139,18.063154",
             "name": "Sergels torg/drottninggatan",
-            "elevator": true,
+            "elevator": true
           }
         ],
         "down": [
           {
             "pos": "59.330344,18.059056",
             "name": "Centralstationen",
-            "elevator": true,
+            "elevator": true
           }
         ],
         "middle": [
           {
             "placement": "middle",
             "name": "Till blå linje, Pendeltåg",
-            "elevator": true,
+            "elevator": true
           }
         ]
       },
@@ -1960,24 +1960,24 @@ tunnelbanekarta = {
           {
             "pos": "59.346588,18.065718",
             "name": "Odengatan/Valhallavägen",
-            "elevator": true,
+            "elevator": true
           },
           {
             "pos": "59.347266,18.066888",
             "name": "Valhallavägen/Körsbärsvägen",
-            "elevator": true,
+            "elevator": true
           }
         ],
         "down": [
           {
             "pos": "59.34568,18.071823",
             "name": "Roslagsbanan (Stockholms östra), Tekniska högskolan",
-            "elevator": true,
+            "elevator": true
           },
           {
             "pos": "59.345062,18.071351",
             "name": "Engelbrektsskolan",
-            "elevator": true,
+            "elevator": true
           }
         ],
         "middle": []
@@ -1994,7 +1994,7 @@ tunnelbanekarta = {
         "down": [
           {
             "name": "Telefonplan/konstfack",
-            "elevator": true,
+            "elevator": true
           }
         ],
         "middle": []
@@ -2011,14 +2011,14 @@ tunnelbanekarta = {
           {
             "pos": "59.394805, 17.899121",
             "name": "Tenstaplan/Hagstråket/Blå huset",
-            "elevator": true,
+            "elevator": true
           }
         ],
         "down": [
           {
             "pos": "59.393882,17.904335",
             "name": "Tensta centrum/Tenstastråket/Tensta Konsthall",
-            "elevator": true,
+            "elevator": true
           }
         ],
         "middle": []
@@ -2035,7 +2035,7 @@ tunnelbanekarta = {
         "down": [
           {
             "name": "Drottningholmsvägen, Konradsbergsparken",
-            "elevator": true,
+            "elevator": true
           }
         ],
         "middle": []
@@ -2054,7 +2054,7 @@ tunnelbanekarta = {
         "down": [
           {
             "name": "Universitetet",
-            "elevator": true,
+            "elevator": true
           }
         ],
         "middle": []
@@ -2071,7 +2071,7 @@ tunnelbanekarta = {
         "down": [
           {
             "name": "Vårbergs centrum",
-            "elevator": true,
+            "elevator": true
           }
         ],
         "middle": []
@@ -2088,7 +2088,7 @@ tunnelbanekarta = {
         "down": [
           {
             "name": "Vårby gårds centrum",
-            "elevator": true,
+            "elevator": true
           }
         ],
         "middle": []
@@ -2105,14 +2105,14 @@ tunnelbanekarta = {
           {
             "pos": "59.364487,17.86967",
             "name": "Lyckselevägen",
-            "elevator": true,
+            "elevator": true
           }
         ],
         "down": [
           {
             "pos": "59.363043,17.872524",
             "name": "Vällingbyplan,bussar",
-            "elevator": true,
+            "elevator": true
           }
         ],
         "middle": []
@@ -2129,14 +2129,14 @@ tunnelbanekarta = {
           {
             "pos": "59.292101,17.968483",
             "name": "Västertorp Centrum/Störtloppsvägen",
-            "elevator": true,
+            "elevator": true
           }
         ],
         "down": [
           {
             "pos": "59.290414,17.965114",
             "name": "Västertorpsvägen",
-            "elevator": true,
+            "elevator": true
           }
         ],
         "middle": []
@@ -2154,14 +2154,14 @@ tunnelbanekarta = {
           {
             "pos": "59.347617,18.003652",
             "name": "Västra skogen centrum (rulltrappor)",
-            "elevator": true,
+            "elevator": true
           }
         ],
         "middle": [
           {
             "placement": "middle",
             "name": "Västra skogen centrum (hiss)",
-            "elevator": true,
+            "elevator": true
           }
         ]
       },
@@ -2180,7 +2180,7 @@ tunnelbanekarta = {
           {
             "placement": "middle",
             "name": "Zinkensdamm (Hornsgatan/Ringvägen)",
-            "elevator": true,
+            "elevator": true
           }
         ]
       },
@@ -2197,7 +2197,7 @@ tunnelbanekarta = {
         "down": [
           {
             "name": "Åkeshovs gårdsväg, Bergslagsvägen",
-            "elevator": true,
+            "elevator": true
           }
         ],
         "middle": []
@@ -2215,7 +2215,7 @@ tunnelbanekarta = {
         "up": [
           {
             "name": "Färjestadsvägen",
-            "elevator": true,
+            "elevator": true
           }
         ],
         "down": [],
@@ -2232,7 +2232,7 @@ tunnelbanekarta = {
         "up": [
           {
             "name": "Örnsbergsvägen",
-            "elevator": true,
+            "elevator": true
           }
         ],
         "down": [],
@@ -2250,14 +2250,14 @@ tunnelbanekarta = {
           {
             "pos": "59.336254,18.079033",
             "name": "Hiss till östermalmstorg",
-            "elevator": true,
+            "elevator": true
           }
         ],
         "down": [
           {
             "pos": "59.334858,18.074226",
             "name": "Stureplan",
-            "elevator": true,
+            "elevator": true
           }
         ],
         "middle": [
@@ -2265,7 +2265,7 @@ tunnelbanekarta = {
             "pos": "59.336254,18.079033",
             "name": "Östermalmstorg",
             "placement": "middle",
-            "elevator": true,
+            "elevator": true
           }
         ]
       },

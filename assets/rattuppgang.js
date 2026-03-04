@@ -1,3 +1,20 @@
+let tunnelbanekarta = {};
+
+async function loadData() {
+    try {
+        const response = await fetch('assets/data.json');
+        tunnelbanekarta = await response.json();
+        
+        // Initialize autocomplete once data is loaded
+        autocomplete(document.getElementById("from"), Object.keys(tunnelbanekarta));
+        autocomplete(document.getElementById("to"), Object.keys(tunnelbanekarta));
+    } catch (error) {
+        console.error('Failed to load station data:', error);
+    }
+}
+
+loadData();
+
 function get_exits(from, to) {
     exits = {
         "front": {},
@@ -131,6 +148,12 @@ function setLatestSearch() {
 
 function search(event) {
     event.preventDefault();
+
+    if (Object.keys(tunnelbanekarta).length === 0) {
+        alert("Vänta tills stationsdatan har laddats klart...");
+        return;
+    }
+
     from = event.target.elements.from.value.trim();
     to = event.target.elements.to.value.trim();
     show_distance = false; // event.target.elements['show-distance'].checked;
@@ -178,6 +201,3 @@ document.getElementById('clear-from').addEventListener('click', clearFrom)
 document.getElementById('clear-to').addEventListener('click', clearTo)
 
 document.addEventListener('DOMContentLoaded', setLatestSearch)
-
-autocomplete(document.getElementById("from"), Object.keys(tunnelbanekarta));
-autocomplete(document.getElementById("to"), Object.keys(tunnelbanekarta));
